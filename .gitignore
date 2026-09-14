@@ -1,0 +1,39 @@
+# Environments & Caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+
+# Environment Variables & Secrets (Κρίσιμο)
+.env
+.env.*
+!.env.example
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# IDEs & Editors
+.vscode/
+.idea/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Databases (Local Dev)
+*.sqlite
+*.sqlite3
+*.db
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/

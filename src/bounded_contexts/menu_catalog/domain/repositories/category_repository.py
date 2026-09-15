@@ -1,3 +1,5 @@
+# domain/repositories/category_repository.py
+
 from abc import ABC, abstractmethod
 
 from src.bounded_contexts.menu_catalog.domain.aggregates.category import Category
